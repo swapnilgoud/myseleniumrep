@@ -6,6 +6,7 @@
   <artifactId>Module_24_HybridRediff</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
+
   <name>Module_24_HybridRediff</name>
   <url>http://maven.apache.org</url>
 
@@ -14,6 +15,7 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
+   
 
    <dependencies>
   <!--  POI  -->
@@ -135,9 +137,20 @@
           <version>3.7.0</version>
         </plugin>
         <plugin>
-          <artifactId>maven-surefire-plugin</artifactId>
-          <version>2.20.1</version>
-        </plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-surefire-plugin</artifactId>
+              <configuration>
+                <suiteXmlFiles>
+    						    <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
+                 </suiteXmlFiles>
+                <properties>
+            		<property>
+               			<name>suitethreadpoolsize</name>
+                		<value>2</value>
+            		</property>
+        		</properties>
+              </configuration>
+            </plugin>
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
           <version>3.0.2</version>
