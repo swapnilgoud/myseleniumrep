@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Stock Suite]" parallel="tests">
+  <test name="Add Delete Stock Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.qtpselenium.rediff.hybrid.testcases.stocksuite.BuySellStockTest">
+        <methods>
+          <include name="initializing"/>
+          <include name="initTest"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.qtpselenium.rediff.hybrid.testcases.stocksuite.BuySellStockTest -->
+      <class name="com.qtpselenium.rediff.hybrid.testcases.stocksuite.AddDelStockTest">
+        <methods>
+          <include name="initializing"/>
+          <include name="deleteStockTest"/>
+          <include name="addStockTest" invocation-numbers="0"/>
+          <include name="initTest"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.qtpselenium.rediff.hybrid.testcases.stocksuite.AddDelStockTest -->
+    </classes>
+  </test> <!-- Add Delete Stock Test(failed) -->
+  <test name="Buy Sell Stock Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.qtpselenium.rediff.hybrid.testcases.stocksuite.BuySellStockTest">
+        <methods>
+          <include name="initializing"/>
+          <include name="buyOrSellStockTest" invocation-numbers="1"/>
+          <include name="checkTransactionHistoryTest"/>
+          <include name="initTest"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.qtpselenium.rediff.hybrid.testcases.stocksuite.BuySellStockTest -->
+      <class name="com.qtpselenium.rediff.hybrid.testcases.stocksuite.AddDelStockTest">
+        <methods>
+          <include name="initializing"/>
+          <include name="initTest"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.qtpselenium.rediff.hybrid.testcases.stocksuite.AddDelStockTest -->
+    </classes>
+  </test> <!-- Buy Sell Stock Test(failed) -->
+</suite> <!-- Failed suite [Stock Suite] -->

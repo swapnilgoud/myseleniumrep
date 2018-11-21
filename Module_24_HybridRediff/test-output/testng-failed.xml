@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.qtpselenium.rediff.hybrid.testcases.stocksuite.AddDelStockTest">
+        <methods>
+          <include name="initializing"/>
+          <include name="deleteStockTest"/>
+          <include name="addStockTest" invocation-numbers="0"/>
+          <include name="initTest"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.qtpselenium.rediff.hybrid.testcases.stocksuite.AddDelStockTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
