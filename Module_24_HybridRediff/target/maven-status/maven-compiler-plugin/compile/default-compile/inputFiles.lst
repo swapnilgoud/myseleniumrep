@@ -2,6 +2,10 @@ C:\WS_Swapnil\Module_24_HybridRediff\src\main\java\com\qtpselenium\rediff\hybrid
 C:\WS_Swapnil\Module_24_HybridRediff\src\main\java\com\qtpselenium\rediff\hybrid\util\Constants.java
 C:\WS_Swapnil\Module_24_HybridRediff\src\main\java\com\qtpselenium\rediff\hybrid\reports\ExtentManager.java
 C:\WS_Swapnil\Module_24_HybridRediff\src\main\java\com\qtpselenium\rediff\hybrid\util\DataUtil.java
+C:\WS_Swapnil\Module_24_HybridRediff\src\main\java\com\qtpselenium\rediff\hybrid\mail\Mail.java
 C:\WS_Swapnil\Module_24_HybridRediff\src\main\java\com\qtpselenium\rediff\hybrid\keywords\GenericKeywords.java
 C:\WS_Swapnil\Module_24_HybridRediff\src\main\java\com\qtpselenium\rediff\hybrid\keywords\AppKeywords.java
+C:\WS_Swapnil\Module_24_HybridRediff\src\main\java\com\qtpselenium\rediff\hybrid\mail\ZipAndSendMail.java
+C:\WS_Swapnil\Module_24_HybridRediff\src\main\java\com\qtpselenium\rediff\hybrid\mail\Zip.java
 C:\WS_Swapnil\Module_24_HybridRediff\src\main\java\com\qtpselenium\rediff\hybrid\driver\DriverScript.java
+C:\WS_Swapnil\Module_24_HybridRediff\src\main\java\com\qtpselenium\rediff\hybrid\mail\FileFilterDateIntervalUtils.java

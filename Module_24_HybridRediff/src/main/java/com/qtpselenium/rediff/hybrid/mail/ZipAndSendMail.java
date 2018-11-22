@@ -9,7 +9,6 @@ import javax.activation.FileDataSource;
 import javax.mail.*;
 import javax.mail.internet.*;
 
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.text.SimpleDateFormat;
